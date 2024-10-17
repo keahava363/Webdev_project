@@ -34,12 +34,12 @@ class Solution {
 
             
         }
-
+        return[-1]
     }
 }
 
 const solution = new Solution();
 const arr = [1, 2, 3, 7, 5]; // Example array
-const s = 7; // Target sum
+const s = 8; // Target sum
 const result = solution.subarraySum(arr, s);
 console.log(result);
